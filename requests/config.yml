@@ -1,0 +1,11 @@
+api:
+  bucket:
+    url: "http://127.0.0.1:8005/bucket/create"
+  ping:
+    url: "http://127.0.0.1:8005/ping"
+logging:
+    file_name: "log_information.log"
+    mode: "a"
+    format: '%(name)s - %(process)d - %(pathname)s - %(lineno)d - %(levelname)s - %(message)s - %(asctime)s'
+    date_format: "%d-%b-%y %H:%M:%S"
+
